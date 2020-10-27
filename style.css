@@ -1,0 +1,48 @@
+.container {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.container:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: purple;
+}
+
+.wowza {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+/* 
+@media (max-width: 600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+
+    .wowza {
+        background-color: hotpink;
+        height: 100px;
+        width: 100px;
+    }
+} */
+
+/* @media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .container {
+        background-color: yellowgreen;
+        height: 200px;
+        width: 250px;
+    }
+
+    .wowza {
+        height: 200px;
+        width: 300px;
+        border-radius: 8px;
+    }
+
+} */
